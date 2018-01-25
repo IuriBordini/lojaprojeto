@@ -27,4 +27,31 @@ public class ProdutoController {
         model.addAttribute("produto",produto);
         return "produto";
     }
+    @RequestMapping(value = "/cadastrar", method = RequestMethod.POST)
+    public String cadastrar (Produto produto , Model model){
+        ProdutoDao dao = new ProdutoDao();
+        dao.cadastrar(produto);
+        model.addAttribute("mensagem","Cadastrado com sucesso");
+        return "produtos";
+    }
+    @RequestMapping(value = "/atualizar", method = RequestMethod.POST)
+    public String atualizar (Produto produto , Model model){
+        ProdutoDao dao = new ProdutoDao();
+        dao.atualizar(produto);
+        model.addAttribute("mensagem","Atualizado com sucesso");
+        return "produtos";
+    }
+    @RequestMapping (value = "/excluir/(id)", method = RequestMethod.GET)
+    public String excluir (@PathVariable long id, Model model){
+        ProdutoDao dao = new ProdutoDao();
+         dao.excluir(id);
+        model.addAttribute("mensagem","Excluido com sucesso");
+        return "produto";
 }
+    @RequestMapping(value = "/cadastro", method = RequestMethod.GET)
+    public String cadastro() {
+    
+       return "produtos";
+}
+}
+    
