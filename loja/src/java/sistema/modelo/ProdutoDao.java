@@ -40,7 +40,30 @@ public class ProdutoDao extends Conexao {
             return null;
             
             
+        } 
+    }
+    public void atualiza (Produto produto){
+        try{
+            String sql = "update produto set"
+                    + "nome=?,preco=?,descricao=?";
+            PreparedStatement st = getConnection().prepareStatement(sql);
+            st.setString(1,produto.getNome());
+            st.setDouble(2,produto.getPreco());
+            st.setString(3,produto.getDescricao());
+            st.setLong(4,produto.getId());
+            st.execute();
+        }catch (Exception e){
+            e.printStackTrace();      
         }
-            
+    }
+    public void excluir (Produto produto){
+        try{
+            String sql = "delete from produto where id = ?";
+            PreparedStatement st = getConnection().prepareStatement(sql);
+             st.setLong(1,produto.getId());
+             st.execute();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
