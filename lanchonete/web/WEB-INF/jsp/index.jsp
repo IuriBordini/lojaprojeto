@@ -100,7 +100,7 @@
                     </div><!-- /header-text -->
                 </div>
                 <div class="item">
-                    <img src="img/Fast_food_French_fries_Beer_Hamburger_Highball_524931_2560x1440.jpg" alt="Third slide">
+                    <img src="resource/img/Fast_food_French_fries_Beer_Hamburger_Highball_524931_2560x1440.jpg" alt="Third slide">
                     <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
@@ -140,7 +140,7 @@
                 <div class="row">
                     <div class="col-sm-4 ">
                         <div class="service">
-                            <a href="#"><img src="images/icon1.png" title="icon-name"></a>
+                            <a href="#"><img src="resource/images/icon1.png" title="icon-name"></a>
                             <h3>Sucess Story</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <a class="btn btn-2 btn-sm" href="#">Read More</a>
@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-sm-4 ">
                         <div class="service">
-                            <a href="#"><img src="images/icon3.png" title="icon-name"></a>
+                            <a href="#"><img src="resource/images/icon3.png" title="icon-name"></a>
                             <h3>Map</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <a class="btn btn-2 btn-sm" href="#">Endereço</a>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-sm-4 ">
                         <div class="service">
-                            <a href="#"><img src="images/icon2.png" title="icon-name"></a>
+                            <a href="#"><img src="resource/images/icon2.png" title="icon-name"></a>
                             <h3>Food Menu</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <a class="btn btn-2 btn-sm" href="#menu">Menu</a>
@@ -180,7 +180,7 @@
                         <div class="box-item">
                             <div class="col-sm-6">
 
-                                <div class="media"><img class="media__image " src="img/banner.jpg">
+                                <div class="media"><img class="media__image " src="resource/img/banner.jpg">
                                     <div class="media__body">
                                         <h2>R$19.90</h2>
                                         <p>Only</p>
@@ -200,7 +200,7 @@
                     <div class="col-xs-6">
                         <div class="box-item">
                             <div class="col-sm-6">
-                                <div class="media"><img class="media__image " src="images/2-thumb.jpg">
+                                <div class="media"><img class="media__image " src="resource/images/2-thumb.jpg">
                                     <div class="media__body">
                                         <h2>R$45</h2>
                                         <p>Only</p>
