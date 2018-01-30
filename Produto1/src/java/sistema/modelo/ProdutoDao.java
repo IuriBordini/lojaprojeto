@@ -73,7 +73,7 @@ public class ProdutoDao extends Conexao{
         
             public void atualizar(Produto produto){
       try{
-          String sql = "update  produto set nome=?, preco=?, descricao=?";
+          String sql = "update  produto set nome=?, preco=?, descricao=? where id =?";
           PreparedStatement st = getConnection().prepareStatement(sql);
           st.setString(1, produto.getNome());
           st.setDouble(2, produto.getPreco());

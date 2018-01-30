@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import sistema.modelo.Produto;
 
 import sistema.modelo.ProdutoDao;
@@ -35,17 +36,17 @@ public class ProdutoController {
         return "produto-new";
     }
     @RequestMapping(value = "/atualizar", method = RequestMethod.POST)
-    public String atualizar (Produto produto , Model model){
+    public String atualizar (Produto produto , RedirectAttributes ra, Model model){
         ProdutoDao dao = new ProdutoDao();
         dao.atualizar(produto);
-        model.addAttribute("mensagem","Atualizado com sucesso");
-        return "produtos";
+        ra.addFlashAttribute("mensagem","Atualizado com sucesso");
+        return "redirect:/produto/"+produto.getId();
     }
     @RequestMapping (value = "/excluir/(id)", method = RequestMethod.GET)
-    public String excluir (@PathVariable long id, Model model){
+    public String excluir (@PathVariable long id,RedirectAttributes ra, Model model){
         ProdutoDao dao = new ProdutoDao();
          dao.excluir(id);
-        model.addAttribute("mensagem","Excluido com sucesso");
+        ra.addFlashAttribute("mensagem","Excluido com sucesso");
         return "produto";
 }
     @RequestMapping(value = "/cadastro", method = RequestMethod.GET)

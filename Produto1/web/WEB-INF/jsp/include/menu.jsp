@@ -9,14 +9,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/Aula4/">LOJA</a>
+      <a class="navbar-brand" href="/loja/">LOJA</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/Aula4/Professores">Página dos Produtos</a></li>
-        <li><a href="/Aula4/CadastroAluno">Cadastrar produto</a></li>
+        <li><a href="/loja/produto/cadastro">Novo Produto</a></li>
+        <li><a href="/loja/produto/">Lista de  produtos</a></li>
         <li><a href="/Aula4/Sair">${funcionario} | Sair</a></li>
 
       </ul>
