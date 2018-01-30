@@ -54,7 +54,7 @@ public class ProdutoDao extends Conexao{
           String sql = "select * from produto where id = ?";
           PreparedStatement st = getConnection().prepareStatement(sql);
               st.setLong(1, id);
-               ResultSet rs = st.executeQuery(sql);
+               ResultSet rs = st.executeQuery();
                
                        Produto p = new Produto();
                
@@ -85,15 +85,16 @@ public class ProdutoDao extends Conexao{
           
       }
     }
-            public void excluir(Produto produto){
+            public void excluir(long id){
                 try{
                     String sql = "delete from produto where id = ?";
           PreparedStatement st = getConnection().prepareStatement(sql);
-              st.setLong(1, produto.getId());
+              st.setLong(1, id);
                 st.execute();
                 }catch(Exception e){
                     e.printStackTrace();
                 }
             }
+            
 }
 

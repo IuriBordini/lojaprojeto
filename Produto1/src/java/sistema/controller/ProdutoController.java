@@ -20,7 +20,7 @@ public class ProdutoController {
         model.addAttribute("dados", dao.getProdutos());
         return "produtos";
     }
-    @RequestMapping (value = "/(id)", method = RequestMethod.GET)
+    @RequestMapping (value = "/{id}", method = RequestMethod.GET)
     public String produto (@PathVariable long id, Model model){
         ProdutoDao dao = new ProdutoDao();
         Produto produto = dao.produtoId(id);
@@ -32,7 +32,7 @@ public class ProdutoController {
         ProdutoDao dao = new ProdutoDao();
         dao.cadastrar(produto);
         model.addAttribute("mensagem","Cadastrado com sucesso");
-        return "produtos";
+        return "produto-new";
     }
     @RequestMapping(value = "/atualizar", method = RequestMethod.POST)
     public String atualizar (Produto produto , Model model){
@@ -51,7 +51,7 @@ public class ProdutoController {
     @RequestMapping(value = "/cadastro", method = RequestMethod.GET)
     public String cadastro() {
     
-       return "produtos";
+       return "produto-new";
 }
 }
     

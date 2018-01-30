@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cadastro de Aluno</title>
+        <title>Visualização de Produto</title>
         <jsp:include page="include/recursos.jsp"></jsp:include>
     </head>
     <body>
@@ -18,17 +18,18 @@
                 <c:if test="${not empty mensagem}">
                     <p class="alert alert-warning">${mensagem}</p>
                 </c:if>
-                <form class="form-horizontal" action="CadastrarAluno" method="POST">
+                <form class="form-horizontal" action="/loja/produto/atualizar" method="POST">
+                    <input type="hidden" name="id" id="id" value="${produto.id}">
                     <fieldset>
 
                         <!-- Form Name -->
-                        <legend>Cadastro de Produto</legend>
+                        <legend>Visualização de Produto</legend>
 
                         <!-- Text input-->
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="nome">Nome</label>  
                             <div class="col-md-4">
-                                <input id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
+                                <input value="${produto.nome}" id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
@@ -37,7 +38,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="preco">Preço</label>  
                             <div class="col-md-4">
-                                <input id="matricula" name="preco" type="text" placeholder="" class="form-control input-md" required="">
+                                <input value="${produto.preco}" id="preco" name="preco" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
@@ -46,7 +47,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="descricao">Descrição</label>  
                             <div class="col-md-4">
-                                <input id="endereco" name="descricao" type="text" placeholder="" class="form-control input-md" required="">
+                                <input value="${produto.descricao}" id="descricao" name="descricao" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
@@ -58,7 +59,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="botao"></label>
                             <div class="col-md-4">
-                                <button id="botao" name="botao" class="btn btn-primary">Cadastrar</button>
+                                <button id="botao" name="botao" class="btn btn-primary">Atualizar</button>
                             </div>
                         </div>
 
@@ -71,7 +72,7 @@
         </div>
         <footer id="rodape">
             <div class="container">
-                <p>Rodapé</p>
+                <p>Loja</p>
             </div>        
         </footer>
 
