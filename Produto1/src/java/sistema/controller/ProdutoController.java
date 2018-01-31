@@ -13,9 +13,31 @@ import sistema.modelo.ProdutoDao;
 
 
 @Controller
-@RequestMapping("/produto")
+@RequestMapping("/")
 public class ProdutoController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
+    public String index(Model model){
+        
+        return "index";
+    }
+     @RequestMapping(value = "/lanche",method = RequestMethod.GET)
+    public String lanche(Model model){
+        
+        return "lanche";
+    }
+    
+     @RequestMapping(value = "/porcoes",method = RequestMethod.GET)
+    public String porcoes(Model model){
+        
+        return "porcoes";
+    }
+     @RequestMapping(value = "/bebida",method = RequestMethod.GET)
+    public String bebida(Model model){
+        
+        return "bebida";
+    }
+    
+    @RequestMapping(value = "/produto",method = RequestMethod.GET)
     public String produtos(Model model){
         ProdutoDao dao = new ProdutoDao();
         model.addAttribute("dados", dao.getProdutos());

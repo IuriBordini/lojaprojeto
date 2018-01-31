@@ -76,13 +76,13 @@
 				
 				
 				<div id="BlocoUm">
-					<a href="/" class="linkLogoTransparente"></a>
+					<a href="/loja/" class="linkLogoTransparente"></a>
 				</div>
 
 				<div id="BlocoDois">
 					<div id="Carrinho" class="divCarrinho">
 
-						<a href="carrinho" class="MeuCarrinho">
+						<a href="/carrinho" class="MeuCarrinho">
 							<img src="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/bgcarrinho.png">
 						</a>
 						
@@ -99,7 +99,7 @@
 					
 					
 					<div id="BarraBusca">
-						<form action="Busca" class="formPesquisar" method="GET" autocomplete="off">
+						<form action="/Busca" class="formPesquisar" method="GET" autocomplete="off">
 							<input autocomplete="off" type="text" name="q" id="pesqFixo" data-placeholder="Buscar" value="Buscar" />
 
 							<!-- Smart Search -->

@@ -1,5 +1,4 @@
 
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
@@ -82,7 +81,7 @@
 				<div id="BlocoDois">
 					<div id="Carrinho" class="divCarrinho">
 
-						<a href="/carrinho" class="MeuCarrinho">
+						<a href="carrinho" class="MeuCarrinho">
 							<img src="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/bgcarrinho.png">
 						</a>
 						
@@ -99,7 +98,7 @@
 					
 					
 					<div id="BarraBusca">
-						<form action="/Busca" class="formPesquisar" method="GET" autocomplete="off">
+						<form action="Busca" class="formPesquisar" method="GET" autocomplete="off">
 							<input autocomplete="off" type="text" name="q" id="pesqFixo" data-placeholder="Buscar" value="Buscar" />
 
 							<!-- Smart Search -->
@@ -249,7 +248,7 @@
 					<div class="migalha">
 						<h1><a href="/" class="nivel1">Home / </a></h1>
 						                      					
-						<h1><a href="/lanches" class="nivel2">Lanches</a></h1>  
+						<h1><a href="/bebidas" class="nivel2">Bebidas</a></h1>  
 						
 					</div>
 					
@@ -267,10 +266,10 @@
 						<option value="0" class="naoSelecionavel">Categorias</option>
 
 						              					
-							<option value="1" selected="selected" data-tipo-filtro="0" data-id-pai="1" data-id="52939" id="filtro-52939">
+							<option value="1" selected="selected" data-tipo-filtro="0" data-id-pai="1" data-id="52936" id="filtro-52936">
 									
 
-										Lanches
+										Bebidas
 
 									
 							</option>
@@ -290,26 +289,6 @@
 
 										
 											0 estrelas
-										
-
-									
-							</option>
-						              					
-							<option value="2"  data-tipo-filtro="4" data-id-pai="0" data-id="3" id="filtro-3">
-									
-
-										
-											3 estrelas
-										
-
-									
-							</option>
-						              					
-							<option value="3"  data-tipo-filtro="4" data-id-pai="0" data-id="4" id="filtro-4">
-									
-
-										
-											4 estrelas
 										
 
 									
@@ -376,15 +355,14 @@
            
             <div class="linha">        
                 
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083273" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083272" data-link="/cheese-tudo-de-calabresa_5" >
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083335" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083334" data-link="/sprite-350ml_5" >
     
 		
     
     
 		
 		<table class="IMGProduto">
-			<tbody>
-                <tr>
+			<tbody><tr>
 				<td>
 					<a href="#" class="produtoImagem linkmodalEspiar">
         
@@ -392,7 +370,7 @@
             
               
 	
-		<img alt="Cheese tudo de calabresa" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_tudo_de_calabresa_detp.jpg" class="tamanhoImgLista" />
+		<img alt="Sprite 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/sprite_350ml_detp.jpg" class="tamanhoImgLista" />
     
 
             
@@ -401,8 +379,7 @@
     </a>
 				</td>
 			</tr>
-    </tbody>
-                      </table>
+    </tbody></table>
 		
 		
 		
@@ -417,7 +394,7 @@
       <div class="limiteInfo">
       
           <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese tudo de calabresa</a></h2>
+						<h2><a class="linkmodalEspiar" href="#">Sprite 350ml</a></h2>
                              
           </div>
         
@@ -430,7 +407,7 @@
               
 
                   <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 34,00</span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
 
                
 
@@ -441,7 +418,7 @@
       
       
         <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 34,00</span></b></span>
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
         	<span style="display:none;" class="formasInfo">sem juros</span>
         </span> 
 
@@ -457,7 +434,7 @@
           
 
 
-		  <input type="hidden" class="valorOriginal" value="34.000000000">
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
           
           
 
@@ -496,7 +473,7 @@
           
 					
 					
-					<div class="BtVerDetalhes"><a class="" href="">Adicionar</a></div>
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
             
             
           
@@ -511,7 +488,7 @@
 
         <!--
         <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
+            <a href="bebidas" class="more">Bebidas</a>
         </div> 
         -->
       
@@ -531,7 +508,7 @@
           
                     
                 
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083271" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083270" data-link="/cheese-tudo-de-churrasco_5" >
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083333" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083332" data-link="/guarana-antarctica-zero-2l_5" >
     
 		
     
@@ -546,7 +523,7 @@
             
               
 	
-		<img alt="Cheese tudo de churrasco" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_tudo_de_churrasco_detp.jpg" class="tamanhoImgLista" />
+		<img alt="Guaraná Antarctica zero 2l" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/guarana_antarctica_zero_2l_detp.jpg" class="tamanhoImgLista" />
     
 
             
@@ -570,1541 +547,7 @@
       <div class="limiteInfo">
       
           <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese tudo de churrasco</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 41,00</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 41,00</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="41.000000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083269" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083268" data-link="/cheese-tudo-de-frango_5" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese tudo de frango" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_tudo_de_frango_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese tudo de frango</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 36,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 36,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="36.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-            <div class="rate star4"></div>
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083267" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083266" data-link="/cheese-tudo-de-hamburguer_5" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese tudo de hambúrguer" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_tudo_de_hamburguer_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese tudo de hambúrguer</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 34,00</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 34,00</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="34.000000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            </div>
-          
-            <div class="linha">        
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083265" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083264" data-link="/cheese-calabresa_22" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese calabresa" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_calabresa_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese calabresa</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 13,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 13,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="13.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083263" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083262" data-link="/cheese-churrasco_22" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese churrasco" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_churrasco_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese churrasco</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 21,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 21,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="21.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083261" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083260" data-link="/cheese-frango_22" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese frango" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_frango_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese frango</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 17,00</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 17,00</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="17.000000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083259" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083258" data-link="/cheese-burguer_11" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese burguer" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_burguer_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese burguer</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 13,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 13,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="13.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            </div>
-          
-            <div class="linha">        
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083257" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083256" data-link="/cheese-calabresa-salada_11" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese calabresa salada" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_calabresa_salada_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese calabresa salada</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 17,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 17,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="17.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083255" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083254" data-link="/cheese-churrasco-salada_11" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese churrasco salada" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_churrasco_salada_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese churrasco salada</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 25,50</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 25,50</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="25.500000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-            <div class="rate star3"></div>
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083253" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083252" data-link="/cheese-frango-salada_11" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Cheese frango salada" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cheese_frango_salada_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Cheese frango salada</a></h2>
-                             
-          </div>
-        
-        
-        <!--<div class="SeparadorProd"></div>-->
-
-
-          <div class="PrecosProdutosList">
-
-              
-
-                  <span class="ValorDe de fontSecundaria"></span>
-                  <span class="ValorPor por fontSecundaria">R$ 21,00</span>
-
-               
-
-              
-          </div>
-          
-          
-      
-      
-        <span class="ValorParc fontSecundaria ValorParcSemJuros">
-        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 21,00</span></b></span>
-        	<span style="display:none;" class="formasInfo">sem juros</span>
-        </span> 
-
-        
-
-        <span class="Economize"></span>  
-        
-      		
-				
-
-      
-          
-          
-
-
-		  <input type="hidden" class="valorOriginal" value="21.000000000">
-          
-          
-
-
-			
-          
-          
-          
-          
-		</div>
-
-      </div>
-    
-    
-
-<div class="MaisInfo">
-      
-      	
-		<div class="hide"><div class="variacoes hide"></div></div>
-
-		<div class="btEspiar"></div>
-        <div id="BotoesProdutosList">     
-          
-          
-           
-            
-          <div class="QtdeCarrinho ">
-            <input type="button" class="qtdeProdutoMenos" value="-" >
-            <div class="floatLeft qtdeProduto qtde" >
-              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
-              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
-            </div>
-            <input type="button" class="qtdeProdutoMais" value="+" >
-          </div>
-          
-          
-					
-					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
-            
-            
-          
-					
-					
-					
-					
-					
-          
-            
-        </div> 
-
-        <!--
-        <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
-        </div> 
-        -->
-      
-      	<span class="TXTAdicionalProduto2"></span>
-	
-				
-
-    </div>
-    
-    <!--<div class="NotaAvaliacaoLista">
-        
-    </div>--> 
-
-</div> 
-                
-            
-          
-                    
-                
-                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083251" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083250" data-link="/calabresa--simples_5" >
-    
-		
-    
-    
-		
-		<table class="IMGProduto">
-			<tbody><tr>
-				<td>
-					<a href="#" class="produtoImagem linkmodalEspiar">
-        
-      
-            
-              
-	
-		<img alt="Calabresa  simples" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/calabresa_simples_detp.jpg" class="tamanhoImgLista" />
-    
-
-            
-
-            
-    </a>
-				</td>
-			</tr>
-    </tbody></table>
-		
-		
-		
-    
-    
-    
-    
-    
-		
-    
-    <div class="boxGeralInfo">
-      <div class="limiteInfo">
-      
-          <div class="NomeProd">
-						<h2><a class="linkmodalEspiar" href="#">Calabresa  simples</a></h2>
+						<h2><a class="linkmodalEspiar" href="#">Guaraná Antarctica zero 2l</a></h2>
                              
           </div>
         
@@ -2183,7 +626,7 @@
           
 					
 					
-					<div class="BtVerDetalhes"><a class="" href="#">Adicionar</a></div>
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
             
             
           
@@ -2198,9 +641,1527 @@
 
         <!--
         <div id="prodep" class="DSL_ProdDep">
-            <a href="lanches" class="more">Lanches</a>
+            <a href="bebidas" class="more">Bebidas</a>
         </div> 
         -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083327" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083326" data-link="/fanta-laranja-2l_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Fanta laranja 2L" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/fanta_laranja_2l_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Fanta laranja 2L</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 10,00</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 10,00</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="10.000000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083325" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083324" data-link="/sprite-2l_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Sprite 2L" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/sprite_2l_detp.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Sprite 2L</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 10,00</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 10,00</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="10.000000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            </div>
+          
+            <div class="linha">        
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083323" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083322" data-link="/coca-cola-zero-2l_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Coca-cola zero 2L" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cocacola_zero_2l_p.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Coca-cola zero 2L</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 10,00</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 10,00</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="10.000000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083319" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083318" data-link="/guarana-antarctica-2l_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Guaraná Antarctica 2L" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/guarana_antarctica_2l_detp.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Guaraná Antarctica 2L</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 10,00</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 10,00</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="10.000000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083317" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083316" data-link="/coca-cola-2l_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Coca-cola 2L" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cocacola_2l_detp.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Coca-cola 2L</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 10,00</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 10,00</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="10.000000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!---->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083299" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083298" data-link="/fanta-laranja-350ml_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Fanta laranja 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/fanta_laranja_350ml_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Fanta laranja 350ml</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!---->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            </div>
+          
+            <div class="linha">        
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083295" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083294" data-link="/guarana-antarctica-zero-350ml_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Guaraná antarctica zero 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/guarana_antartica_zero_350ml_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Guaraná antarctica zero 350ml</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083293" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083292" data-link="/coca-cola-zero-350ml_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Coca-cola zero 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cocacola_zero_350ml_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Coca-cola zero 350ml</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083291" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083290" data-link="/guarana-antarctica-350ml_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Guaraná Antarctica 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/guarana_antartica_350ml_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Guaraná Antarctica 350ml</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!--
+        <div id="prodep" class="DSL_ProdDep">
+            <a href="bebidas" class="more">Bebidas</a>
+        </div> 
+        -->
+      
+      	<span class="TXTAdicionalProduto2"></span>
+	
+				
+
+    </div>
+    
+    <!--<div class="NotaAvaliacaoLista">
+        
+    </div>--> 
+
+</div> 
+                
+            
+          
+                    
+                
+                  <div id="BlocoProdutos" class="produtoItem tamanhoLarLista"  data-load-variacao="false" data-id="1083289" data-prevenda="false" data-possui-variacao="false"  data-aviseme="true" data-disponivel="true" data-carregou-descricao="false" data-id-variacao="" data-id-variacao-padrao="1083288" data-link="/coca-cola-350ml_5" >
+    
+		
+    
+    
+		
+		<table class="IMGProduto">
+			<tbody><tr>
+				<td>
+					<a href="#" class="produtoImagem linkmodalEspiar">
+        
+      
+            
+              
+	
+		<img alt="Coca-cola 350ml" src="http://dotstore.s3-sa-east-1.amazonaws.com/598/produtos/listaprodutos/cocacola_350ml_d.jpg" class="tamanhoImgLista" />
+    
+
+            
+
+            
+    </a>
+				</td>
+			</tr>
+    </tbody></table>
+		
+		
+		
+    
+    
+    
+    
+    
+		
+    
+    <div class="boxGeralInfo">
+      <div class="limiteInfo">
+      
+          <div class="NomeProd">
+						<h2><a class="linkmodalEspiar" href="#">Coca-cola 350ml</a></h2>
+                             
+          </div>
+        
+        
+        <!--<div class="SeparadorProd"></div>-->
+
+
+          <div class="PrecosProdutosList">
+
+              
+
+                  <span class="ValorDe de fontSecundaria"></span>
+                  <span class="ValorPor por fontSecundaria">R$ 5,50</span>
+
+               
+
+              
+          </div>
+          
+          
+      
+      
+        <span class="ValorParc fontSecundaria ValorParcSemJuros">
+        	<span style="display:none;" class="formas"> <b><span class="fontSecundaria">1</span>x de <span class="fontSecundaria">R$ 5,50</span></b></span>
+        	<span style="display:none;" class="formasInfo">sem juros</span>
+        </span> 
+
+        
+
+        <span class="Economize"></span>  
+        
+      		
+				
+
+      
+          
+          
+
+
+		  <input type="hidden" class="valorOriginal" value="5.500000000">
+          
+          
+
+
+			
+          
+          
+          
+          
+		</div>
+
+      </div>
+    
+    
+
+<div class="MaisInfo">
+      
+      	
+		<div class="hide"><div class="variacoes hide"></div></div>
+
+		<div class="btEspiar"></div>
+        <div id="BotoesProdutosList">     
+          
+          
+           
+            
+          <div class="QtdeCarrinho ">
+            <input type="button" class="qtdeProdutoMenos" value="-" >
+            <div class="floatLeft qtdeProduto qtde" >
+              <input type="text" class="qtdeProdutoMUDA" value="1" data-estoque="0">
+              <span class="error hide">No momento a quantidade solicitada não esta disponível em estoque</span>
+            </div>
+            <input type="button" class="qtdeProdutoMais" value="+" >
+          </div>
+          
+          
+					
+					
+					<div class="BtVerDetalhes"><a class="linkmodalEspiar" href="#">Adicionar</a></div>
+            
+            
+          
+					
+					
+					
+					
+					
+          
+            
+        </div> 
+
+        <!---->
       
       	<span class="TXTAdicionalProduto2"></span>
 	
@@ -2221,17 +2182,15 @@
 			<div class="clear"></div>
 			
         <script>
-//window.paginas = [{"selected":true,"number":1,"url":null,"context":null},{"selected":false,"number":2,"url":"http://www.lanchoneteestrela.com.br:80/lanches?pagina=2","context":null},{"selected":false,"number":3,"url":"http://www.lanchoneteestrela.com.br:80/lanches?pagina=3","context":null}];
+window.paginas = [{"selected":true,"number":1,"url":null,"context":null},{"selected":false,"number":2,"url":"http://www.lanchoneteestrela.com.br:80/bebidas?pagina=2","context":null}];
 </script>
 
 
-<!--<div class="listagemFooter">
+<div class="listagemFooter">
 	
 		
 			
-				<div class="qtdPaginas">Página <b><span class="fontSecundaria">1</span></b> de <b><span class="fontSecundaria">3</span></b></div>
-			
-		
+				<div class="qtdPaginas">Página <b><span class="fontSecundaria">1</span></b> de <b><span class="fontSecundaria">2</span></b></div>
 			
 		
 			
@@ -2240,7 +2199,7 @@
 	
 		
 
-	<div class="paginacao">
+		<div class="paginacao">
 			<p>
 				
 
@@ -2250,25 +2209,21 @@
 					
 				
 					
-						<a class="numeroPaginacao" href="http://www.lanchoneteestrela.com.br:80/lanches?pagina=2" data-pagina="2"><span class="fontSecundaria">2</span></a>
-					
-				
-					
-						<a class="numeroPaginacao" href="http://www.lanchoneteestrela.com.br:80/lanches?pagina=3" data-pagina="3"><span class="fontSecundaria">3</span></a>
+						<a class="numeroPaginacao" href="http://www.lanchoneteestrela.com.br:80/bebidas?pagina=2" data-pagina="2"><span class="fontSecundaria">2</span></a>
 					
 				
 
 				
-					<a href="http://www.lanchoneteestrela.com.br:80/lanches?pagina=4">Última</a>
+					<a href="http://www.lanchoneteestrela.com.br:80/bebidas?pagina=2">Última</a>
 				
 			</p>
-		</div> 
+		</div>
 	
 	
 	
 	
 	
-</div>-->
+</div>
 
 
         
@@ -2315,7 +2270,7 @@
 				<div class="RodapeInstitucional menor">
 					<ul class="menuRodape">
 						<h4 class="TituloInst">contato</h4>
-						<h5 class="ItensInst">(xx) xxxx xxxx</h5>
+						<h5 class="ItensInst">(11) 4796 3112</h5>
 						<h5 class="ItensInst"><a href="/faleConosco">Fale conosco</a></h5>
 					</ul>		                    
 				</div>
@@ -2331,7 +2286,7 @@
 				<div class="clear"></div>
 				
 				<div class="RodapeInstitucional semMarginLeft logoEstrela">
-					<img src="resource/img/logo.jpg" alt="Lanchonete Estrela" />
+					<img src="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/seloestrelarodape.png" alt="Lanchonete Estrela" />
 				</div>
 				
 				<div class="RodapeInstitucional maior formaPagamento">
@@ -2442,7 +2397,7 @@
 			
 			
 			
-	window.categoria = {"nome":"Lanches","categorias":[],"ordenacao":1,"paiId":null,"posicao":1,"descricao":"Escolha seu lanche!","imagem":"categorias/imgcat1.png","urlValor":"lanches","id":52939};
+	window.categoria = {"nome":"Bebidas","categorias":[],"ordenacao":1,"paiId":null,"posicao":4,"descricao":"Escolha sua bebida!","imagem":"categorias/imgcat4.png","urlValor":"bebidas","id":52936};
 	
     </script>
     
@@ -2450,7 +2405,7 @@
 
     
     
-    <script src='//dotstore.s3-sa-east-1.amazonaws.com/dotstore-comun-1.0.0.min.js' type='text/javascript'></script><script src='//dotstore.s3-sa-east-1.amazonaws.com/loja-comun-1.0.0.min.js' type='text/javascript'></script><script type='text/javascript'>dotstore.pagina.controllerNome = 'Categoria';dotstore.pagina.viewNome = 'Index';dotstore.template.isMobile = false;dotstore.compra = null;dotstore.carrinho = null;dotstore.produto = null;dotstore.sessionId = 'u0b5r5t2jbaomrt5vfpimuv0';dotstore.clienteEmailHashMD5 = '';</script>
+    <script src='//dotstore.s3-sa-east-1.amazonaws.com/dotstore-comun-1.0.0.min.js' type='text/javascript'></script><script src='//dotstore.s3-sa-east-1.amazonaws.com/loja-comun-1.0.0.min.js' type='text/javascript'></script><script type='text/javascript'>dotstore.pagina.controllerNome = 'Categoria';dotstore.pagina.viewNome = 'Index';dotstore.template.isMobile = false;dotstore.compra = null;dotstore.carrinho = null;dotstore.produto = null;dotstore.sessionId = 'lkczazrc2j2it31wdb3ocq4v';dotstore.clienteEmailHashMD5 = '';</script>
 		
   </body>
 </html>
