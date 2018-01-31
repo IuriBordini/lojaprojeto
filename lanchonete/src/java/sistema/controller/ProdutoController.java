@@ -20,6 +20,22 @@ public class ProdutoController {
         
         return "index";
     }
+     @RequestMapping(value = "/lanche",method = RequestMethod.GET)
+    public String lanche(Model model){
+        
+        return "lanche";
+    }
+    
+     @RequestMapping(value = "/porcoes",method = RequestMethod.GET)
+    public String porcoes(Model model){
+        
+        return "porcoes";
+    }
+     @RequestMapping(value = "/bebida",method = RequestMethod.GET)
+    public String bebida(Model model){
+        
+        return "bebida";
+    }
     
     @RequestMapping(value = "/produto",method = RequestMethod.GET)
     public String produtos(Model model){
