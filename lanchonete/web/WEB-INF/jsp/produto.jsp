@@ -72,7 +72,7 @@
         </div>
         <footer id="rodape">
             <div class="container">
-                <p>Loja</p>
+                <img src="resource/img/logo.jpg">
             </div>        
         </footer>
 
