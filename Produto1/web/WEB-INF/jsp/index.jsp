@@ -67,7 +67,7 @@
 
 
                         <div id="BlocoUm">
-                            <a href="/" class="linkLogoTransparente"></a>
+                            <a href="#" class="linkLogoTransparente"></a>
                         </div>
 
                         <div id="BlocoDois">
