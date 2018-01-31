@@ -38,8 +38,8 @@
                         <td>${produto.nome}</td>
                         <td>${produto.preco}</td>
                         <td>${produto.descricao}</td>
-                        <td><a href="VisualizarAluno/${produto.id}">Visualizar</a></td>
-                        <td><a href="ExcluirAluno/${produto.id}">Excluir</a></td>
+                        <td><a href="/loja/produto/${produto.id}">Visualizar</a></td>
+                        <td><a href="/loja/produto/excluir/${produto.id}">Excluir</a></td>
                     </tr>
                     
                 </c:forEach>

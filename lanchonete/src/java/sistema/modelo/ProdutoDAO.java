@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sistema.modelo;
 
 
-import java.sql.DriverManager;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- *
- * @author Aluno
- */
 public class ProdutoDAO extends Conexao{
     public void cadastrar(Produto produto){
       try{
@@ -62,7 +54,7 @@ public class ProdutoDAO extends Conexao{
           String sql = "select * from produto where id = ?";
           PreparedStatement st = getConnection().prepareStatement(sql);
               st.setLong(1, id);
-               ResultSet rs = st.executeQuery(sql);
+               ResultSet rs = st.executeQuery();
                
                        Produto p = new Produto();
                
@@ -81,7 +73,7 @@ public class ProdutoDAO extends Conexao{
         
             public void atualizar(Produto produto){
       try{
-          String sql = "update  produto set nome=?, preco=?, descricao=?";
+          String sql = "update  produto set nome=?, preco=?, descricao=? where id =?";
           PreparedStatement st = getConnection().prepareStatement(sql);
           st.setString(1, produto.getNome());
           st.setDouble(2, produto.getPreco());
@@ -103,4 +95,6 @@ public class ProdutoDAO extends Conexao{
                     e.printStackTrace();
                 }
             }
+            
 }
+
