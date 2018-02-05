@@ -1,14 +1,30 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package sistema.modelo;
 
-
+/**
+ *
+ * @author Aluno
+ */
 public class Produto {
     private Long id;
     private String nome;
     private double preco;
     private String descricao;
+private String foto;
 
     public Produto() {
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 
     public Produto(Long id, String nome, double preco, String descricao) {
