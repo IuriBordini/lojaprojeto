@@ -14,17 +14,8 @@ public class Produto {
     private String nome;
     private double preco;
     private String descricao;
-private String foto;
 
     public Produto() {
-    }
-
-    public String getFoto() {
-        return foto;
-    }
-
-    public void setFoto(String foto) {
-        this.foto = foto;
     }
 
     public Produto(Long id, String nome, double preco, String descricao) {

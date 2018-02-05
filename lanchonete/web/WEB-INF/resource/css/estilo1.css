@@ -40,7 +40,7 @@ b {font-weight:600 !important;}
 #boxMeusPedidos span {float:left;}
 
 #Logotipo .logo {position:relative; z-index: 9;}
-#BoxTarjaEfeito {display: table;width: 100%;margin:0 auto;background-image:url(../img/01.jpg) !important;height: 230px;background-color: initial !important;background-position: center center !important;background-repeat: no-repeat !important; background-size: cover;}
+#BoxTarjaEfeito {display: table;width: 100%;margin:0 auto; !important;height: 230px;background-color: initial !important;background-position: center center !important;background-repeat: no-repeat !important; background-size: cover;}
 
 #BlocoUm{width: 170px; float:left; margin-top:13px;}
 #BlocoDois{float: right;margin-top: 80px;margin-right: 35px;height: 77px;position: relative;}
@@ -79,7 +79,7 @@ b {font-weight:600 !important;}
 .boxTelTopo span {color:#d37a7d; font-size:11px; }
 .boxTelTopo a {color:#f8c6a4; font-size:13px; display: block;}
 
-#Carrinho {float: right; margin-right:-150px;  margin-top: 0px;}
+#Carrinho {float: right; margin-right:-150px;  margin-top: 25px;}
 #Carrinho img {display:block;margin:0px auto;margin-top: 5px;}
 #Carrinho ul {margin:0px; padding:0px;}
 .MeuCarrinho{margin: 0;padding: 0; font-size: 12px;}
@@ -145,7 +145,7 @@ b {font-weight:600 !important;}
 
 /*#departamento > ul > li > a > div {width: 30px; height: 33px; float: left;}*/
 
-.linkTodasCategorias {font-size:17px; color:#2a2a2a; margin:10px 0px; text-transform: uppercase; display: table;}
+.linkTodascategoriasTopos {font-size:17px; color:#2a2a2a; margin:10px 0px; text-transform: uppercase; display: table;}
 .linkTodasCategorias span {float:left;}
 .linkTodasCategorias a.allDepart {font-size:17px; color:#fff; margin:0px; float:left!important; width:auto!important; margin-left: 20px; font-weight:normal!important;}
 .linkTodasCategorias a b {font-weight:bold;}
@@ -1264,8 +1264,8 @@ ul.rate li {width: 18px;height: 16px;}
 
 #categoriasTopo {
     float: right;
-    margin-right: 30px;
-    margin-top: 17px;
+    margin-right: 200px;
+    margin-top: 42px;
     background-color: brown;
     border-radius: 25px;
 }

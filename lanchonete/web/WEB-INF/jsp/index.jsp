@@ -3,7 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <title>LANCHONETE UP</title>
@@ -17,10 +17,10 @@
 
         <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/bootstrap.css" rel="stylesheet">
         <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/fancybox.css" rel="stylesheet">
-        <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/flexslider.css" rel="stylesheet">
+        <link href="css/carrossel.css" rel="stylesheet">
         <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/cloudzoom.css" rel="stylesheet">	<link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/rangeslider.min.css" rel="stylesheet">
-        <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/loja.css" rel="stylesheet">
-        <link href="http://dotstore.s3-sa-east-1.amazonaws.com/598/templates/desktop-estrela/arquivos/personalizacao.css" rel="stylesheet">
+        <link href="resource/css/loja.css" rel="stylesheet">
+        <link type="text/css" href="resource/css/estilo1.css" rel="stylesheet">
 
 
 
@@ -38,22 +38,7 @@
         </div>
 
 
-        <div class="geralSugestao">
 
-            <div class="centroSugestao fontSecundaria">
-
-                <h1>Olá Pedro, <br><b>quer levar o de sempre?</b></h1>		
-                <p>1 Pizza de Mussarela, 1 Pizza de Calabresa e 1 Coca-cola 2 litros <br><b>R$ 89,00</b></p>
-
-                <h1><b>No mesmo endereço?</b></h1>		
-                <p>Rua Gertrudes da Conceição Cabral, 142 <br>Vila Nancy - Mogi das Cruzes - SP <br>08735-050 </p>
-
-                <a href="#"><span class="btQueroSugestao">sim, eu quero!</span></a>
-                <a href="#" class="btNaoQueroSugestao">Não, quero fazer um novo pedido</a>
-
-            </div>
-
-        </div>
 
         <!-- Header Start -->
         <div id="TopoGeral"> 
@@ -61,13 +46,14 @@
             <div class="container">      
 
                 <div id="BoxTarjaEfeito" class="temaCor">
-
-                    <div class="Limite">
+                 
+             <div class="Limite">
 
 
 
                         <div id="BlocoUm">
-                            <a href="/" class="linkLogoTransparente"></a>
+                            <h5 class="nome">LANCHONETE</h5>
+                            <a href="/lanchonete/" class="linkLogoTransparente"><img src="resource/img/logo_1.jpg" alt="logo"></a>
                         </div>
 
                         <div id="BlocoDois">
@@ -146,9 +132,13 @@
                             Faça <a href="#" class="headerLoginLink"><strong>login</strong></a> ou <a href="#" class="headerCadastroLink"><strong>cadastre-se</strong></a>.
 
                         </div>
+              
 
                     </div>
-
+                    <div id="div3">
+                        <hr> 
+                    </div>
+     
                 </div>
 
             </div>
@@ -374,7 +364,7 @@
                     <div class="RodapeInstitucional menor">
                         <ul class="menuRodape">
                             <h4 class="TituloInst">contato</h4>
-                            <h5 class="ItensInst">(11) 4796 3112</h5>
+                            <h5 class="ItensInst">(xx) xxxx xxxx</h5>
                             <h5 class="ItensInst"><a href="/faleConosco">Fale conosco</a></h5>
                         </ul>		                    
                     </div>
@@ -390,7 +380,7 @@
                     <div class="clear"></div>
 
                     <div class="RodapeInstitucional semMarginLeft logoEstrela">
-                        <img src="resource/img/logo.jpg" alt="LanchoneteUP" />
+                        <img src="resource/img/logo_1.jpg" alt="LanchoneteUP" />
                     </div>
 
                     <div class="RodapeInstitucional maior formaPagamento">
@@ -401,13 +391,7 @@
                     </div>
 
 
-                    <div class="RodapeInstitucional maior midiabottom">
-                        <ul class="menuRodape">
-                            <h4 class="TituloInst">Mídias</h4>
-                            <a href="" class="faceBottom" target="_blank"></a>
-                        </ul>		                    
-                    </div>
-
+              
 
 
 
@@ -427,20 +411,7 @@
                         <p class="txtNews2"></p> 
                         <p class="txtNewsObs"></p> 
 
-                        <div class="BoxEmail">
-                            <form method="post" name="formNewsletter" id="formNewsletter">
-                                <div class="BgCampoNome">
-                                    <input class="CadastrarEmail" id="newsletterNome" type="text" name="newsletterNome" value="" placeholder="Nome">
-                                </div>
-                                <div class="BgCampoEmail">
-                                    <input class="CadastrarEmail" id="newsletterEmail" type="text" name="newsletterEmail" value="" placeholder="Email">
-                                </div>
-
-                                <div class="BtEnviar">
-                                    <input type="button" id="verificar-email" value="Enviar">
-                                </div>
-                            </form>
-                        </div>
+                 
                     </div>
                 </div>
 

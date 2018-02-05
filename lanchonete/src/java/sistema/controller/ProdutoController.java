@@ -22,7 +22,8 @@ public class ProdutoController {
     }
      @RequestMapping(value = "/lanche",method = RequestMethod.GET)
     public String lanche(Model model){
-        
+        ProdutoDao dao = new ProdutoDao();
+        model.addAttribute("produtos", dao.getProdutos());
         return "lanche";
     }
     
@@ -38,9 +39,10 @@ public class ProdutoController {
     }
     
     @RequestMapping(value = "/produto",method = RequestMethod.GET)
-    public String produtos(Model model){
+    public String produtos(Model model, @PathVariable long id){
         ProdutoDao dao = new ProdutoDao();
-        model.addAttribute("dados", dao.getProdutos());
+        
+        model.addAttribute("dados", dao.produtoId(id));
         return "produtos";
     }
     @RequestMapping (value = "/{id}", method = RequestMethod.GET)

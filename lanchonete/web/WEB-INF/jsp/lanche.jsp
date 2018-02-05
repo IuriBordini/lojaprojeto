@@ -139,26 +139,33 @@
 
         </div>
 
-
+        
 
         <!-- Header End -->
-         <!-- Inicio Produtos -->
-         <div class="container">
-             <div class="row">
+        <div class="container "> <!-- Inicio Produtos -->
+         <div class ="textoh"class="col-2">
+                     <h2>
+                         <b> Hamburgues</b><hr>
+                    </h2>
+                </div>
+            <div class="row">
+                
+                
                     <c:forEach var="p"  items="${produtos}">
-                        <div class="col-md-3 col-sm-3 div1">
-                           <div class=" align-items-start">
-                               
-                               <div class="fotoproduto"><img style="width :185; height:170  " src="resource/img/${p.foto}"</div>
-                            <div class="nomeproduto">${p.nome}</div> 
-                            <div class="precoproduto">R$ ${p.preco}</div> 
+                             <div class="col-md3 col-sm-3">
+                           <div class= "align-items-start">
+                          
+                            <div class="fotoproduto"><img src="resource/img/currasco.jpg"</div>
+                            <div class="nomeproduto"><b>${p.nome}</b></div>
+                            <div class="precoproduto"><b>R$ ${p.preco}</b></div> 
+                            <a href="#" class="btn btn-danger btn-sm " role="button">Adcionar</a>
                               
                                </div>
-                    </div>   </div>  
+                       </div>  </div> 
                     </c:forEach>
 
-         </div> </div>
-   
+            </div>
+        </div>
 
 
 

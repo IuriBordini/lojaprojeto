@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Visualização de Produto</title>
+        <title>Cadastro de Aluno</title>
         <jsp:include page="include/recursos.jsp"></jsp:include>
     </head>
     <body>
@@ -18,36 +18,40 @@
                 <c:if test="${not empty mensagem}">
                     <p class="alert alert-warning">${mensagem}</p>
                 </c:if>
-                <form class="form-horizontal" action="/loja/produto/atualizar" method="POST">
-                    <input type="hidden" name="id" id="id" value="${produto.id}">
+                <form class="form-horizontal" action="/lanchonete/cadastroc" method="POST">
                     <fieldset>
 
                         <!-- Form Name -->
-                        <legend>Visualização de Produto</legend>
+                        <legend>Cadastro de Cliente</legend>
 
                         <!-- Text input-->
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="nome">Nome</label>  
                             <div class="col-md-4">
-                                <input value="${produto.nome}" id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
+                                <input id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
 
                         <!-- Text input-->
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="preco">Preço</label>  
+                            <label class="col-md-4 control-label" for="telefone">Telefone</label>  
                             <div class="col-md-4">
-                                <input value="${produto.preco}" id="preco" name="preco" type="text" placeholder="" class="form-control input-md" required="">
+                                <input id="telefone" name="telefone" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
 
                         <!-- Text input-->
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="descricao">Descrição</label>  
+                            <label class="col-md-4 control-label" for="endereco">Endereço</label>  
                             <div class="col-md-4">
-                                <input value="${produto.descricao}" id="descricao" name="descricao" type="text" placeholder="" class="form-control input-md" required="">
+                                <input id="endereco" name="endereco" type="text" placeholder="" class="form-control input-md" required="">
+
+                            </div>
+                            <label class="col-md-4 control-label" for="endereco">Cep</label>  
+                            <div class="col-md-4">
+                                <input id="cep" name="cep" type="text" placeholder="" class="form-control input-md" required="">
 
                             </div>
                         </div>
@@ -59,7 +63,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="botao"></label>
                             <div class="col-md-4">
-                                <button id="botao" name="botao" class="btn btn-primary">Atualizar</button>
+                                <button id="botao" name="botao" class="btn btn-primary">Cadastrar</button>
                             </div>
                         </div>
 
